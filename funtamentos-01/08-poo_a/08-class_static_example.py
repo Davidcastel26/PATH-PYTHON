@@ -14,3 +14,8 @@ class BankAccount:
     def validate_amount(amount):
         return amount > 0
     
+    def withdraw(self, amount):
+        if self.validate_amount(amount):
+            if self.balance >= amount:
+                self.balance -= amount
+                return "retiro exitoso"
