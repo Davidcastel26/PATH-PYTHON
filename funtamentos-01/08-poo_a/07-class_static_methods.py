@@ -10,3 +10,6 @@ class Person:
         cls.species = new_species
         # changes a class level not changes in general level
         
+    @staticmethod
+    def is_older(age):
+        return age >= 18
