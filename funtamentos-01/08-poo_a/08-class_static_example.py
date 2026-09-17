@@ -18,4 +18,16 @@ class BankAccount:
         if self.validate_amount(amount):
             if self.balance >= amount:
                 self.balance -= amount
-                return "retiro exitoso"
+                print( "retiro exitoso")
+            else:
+                print('saldo insuficiente')
+        else:
+            print("error: el monto debe ser mayor a cero")
+            
+account1 = BankAccount("david", 1000)
+print(BankAccount.interest_rate)
+print(BankAccount.change_interest_rate(0.03))
+print(BankAccount.interest_rate)
+
+account1.withdraw(999)
+account1.withdraw(5)
