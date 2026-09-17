@@ -1,0 +1,21 @@
+
+# Pass
+for item in [1,2,3,4,5]:
+    pass
+
+# break lo corta 
+for item in [1,2,3,4,5]:
+    if item == 4:
+        break
+    print(item)
+
+# continue ignorar una section del ciclo 
+number = 0
+while number < len([1,2,3,4,5]):
+    number += 1
+    continue
+    print(number)
+    
+
+
+
