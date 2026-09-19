@@ -9,4 +9,3 @@ class Animal(ABC):
     
     def sleep(self):
         print('zzzz....')
-
