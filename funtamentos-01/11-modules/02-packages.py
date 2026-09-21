@@ -1,5 +1,5 @@
-from my_package import math_utils, messages
+from my_package import addition, greet, bye
 
-print(math_utils.addition(2,3))
-print(messages.greet("david"))
-print(messages.bye("david"))
+print(addition(2,3))
+print(greet("david"))
+print(bye("david"))
