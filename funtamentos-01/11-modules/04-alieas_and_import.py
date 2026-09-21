@@ -1,5 +1,7 @@
 # import full lib
 import math
+# no recomended
+# from math import *
 # import function specific
 from datetime import datetime
 # import wiht alias
